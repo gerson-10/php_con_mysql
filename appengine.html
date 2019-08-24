@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>costos de App Engine</title>
+    <link rel="stylesheet" href="Css/datatables.min.css"/>
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!--link rel="stylesheet" href="Css/style.css"-->
+    <style type="text/css">
+        body {
+            background-image: url(Images/fondo4.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
+    </style>
+</head>
+<body>
+        <div align='center'>
+                <div class="panel panel-primary">
+                         <div class="panel-heading"></div>
+                                 <div class="panel-body">
+                                 <a href="index.html"><center><button><B>Regresar a Menu Principal</B></button></a>
+                         </div>
+                 </div>
+        </div><br>
+    <form>
+        <div>
+            <a>App Engine es una plataforma totalmente administrada y sin servidor para desarrollar 
+            y alojar aplicaciones web a escala. Puede elegir entre varios idiomas, bibliotecas y marcos
+            populares para desarrollar sus aplicaciones, luego deje que App Engine se encargue de 
+            aprovisionar servidores y escalar sus instancias de aplicaciones según la demanda.</a>
+        </div>
+
+        <div>
+            <p>El entorno estándar de App Engine se basa en instancias de contenedores que se ejecutan en la infraestructura de Google. Los contenedores están preconfigurados con uno de varios tiempos de ejecución disponibles.</p>
+
+            <p>Entorno estándar de App Engine facilita la creación e implementación de una aplicación que se ejecuta de manera confiable incluso bajo una gran carga y con grandes cantidades de datos.</p>
+                    
+            <p>Las aplicaciones se ejecutan en un entorno seguro y protegido, lo que permite que el entorno estándar de App Engine distribuya solicitudes en varios servidores y escale servidores para satisfacer las demandas de tráfico. Su aplicación se ejecuta dentro de su propio entorno seguro y confiable que es independiente del hardware, sistema operativo o ubicación física del servidor.</p>
+        </div>
+
+        <div>
+            <p>
+                    App Engine permite a los desarrolladores centrarse en hacer lo que mejor saben hacer, escribir código. Basado en Google Compute Engine , el entorno flexible de App Engine escala automáticamente su aplicación hacia arriba y hacia abajo mientras equilibra la carga. Los microservicios, la autorización, las bases de datos SQL y NoSQL, la división del tráfico, el registro, el control de versiones, el escaneo de seguridad y las redes de entrega de contenido son compatibles de forma nativa. Además, el entorno flexible de App Engine le permite personalizar el tiempo de ejecución e incluso el sistema operativo de su máquina virtual utilizando Dockerfiles.
+            </p>
+        </div>
+    </form>
+    <table class="egt">
+
+            <tr>
+          
+              <th>Clase de Instancia</th>
+          
+              <th>Coste por hora y por instancia</th>
+          
+            </tr>
+          
+            <tr>
+          
+              <td>B1</td>
+          
+              <td>$0.05</td>
+          
+            </tr>
+          
+            <tr>
+          
+              <td>B2</td>
+          
+              <td>$0.10</td>
+          
+            </tr>
+
+            <tr>
+          
+                <td>B4</td>
+                
+                <td>$0.20</td>
+                
+            </tr>
+                
+            <tr>
+                
+                <td>B1_G</td>
+                
+                <td>$0.30</td>
+                
+            </tr>
+
+            <tr>
+          
+                <td>B8</td>
+                
+                <td>$0.40</td>
+                
+            </tr>
+                
+            <tr>
+                
+                <td>F1</td>
+                
+                <td>$0.05</td>
+                
+            </tr>
+
+            <tr>
+          
+                <td>F2</td>
+                
+                <td>$0.10</td>
+                
+            </tr>
+                
+            <tr>
+                
+                <td>F4</td>
+                
+                <td>$0.20</td>
+                
+            </tr>
+
+            <tr>
+          
+                <td>F4_1G</td>
+                
+                <td>$0.30</td>
+        
+            </tr> 
+          </table>
+
+<table class="egt2">
+
+                <tr>
+              
+                  <th>Recurso</th>
+              
+                  <th>Unidad</th>
+              
+                  <th>Costo de la unidad</th>
+              
+                </tr>
+              
+                <tr>
+              
+                  <td>vCPU</td>
+              
+                  <td>Por hora de nucleo</td>
+              
+                  <td>$0.0526</td>
+              
+                </tr>
+              
+                <tr>
+              
+                  <td>Memoria</td>
+              
+                  <td>Por GB por hora</td>
+              
+                  <td>$0.0071</td>
+              
+                </tr>
+              
+                <tr>
+              
+                  <td>Disco Persistente</td>
+              
+                  <td>Por GB al mes</td>
+              
+                  <td>$0.0400</td>
+              
+                </tr>
+    <table class="egt3">
+
+                        <tr>
+                      
+                          <th>Recurso</th>
+                      
+                          <th>Cuota Gratuita al dia</th>
+
+                          <th>Unidad</th>
+                      
+                          <th>Precio por sobrepasar la cuota gratis</th>
+                      
+                        </tr>
+                      
+                        <tr>
+                      
+                          <td>Datos Almacenados</td>
+                      
+                          <td>1 GB</td>
+                      
+                          <td>Por GB al mes</td>
+
+                          <td>$0.18</td>
+                      
+                        </tr>
+                      
+                        <tr>
+                      
+                          <td>Lectura de entidades</td>
+                      
+                          <td>$50.000</td>
+                      
+                          <td>Por cada 100.000 entidades</td>
+
+                          <td>$O.06</td>
+                      
+                        </tr>
+                      
+                        <tr>
+                      
+                          <td>Escrituras de entidades</td>
+                      
+                          <td>$20.000</td>
+                      
+                          <td>Por cada 100.000 entidades</td>
+
+                          <td>$0.18</td>
+                      
+                        </tr>
+
+                        <tr>
+                      
+                            <td>Eliminaciones de entidades</td>
+                            
+                            <td>$20.000</td>
+                            
+                            <td>Por cada 100.000 entidades</td>
+      
+                            <td>$0.02</td>
+                            
+                        </tr>
+                      
+                      </table>
+              
+              </table>
+              <script src="Js/bootstrap.min.js"></script>
+              <script src="Js/jquery-3.4.1.min.js"></script>
+<script src="Js/datatables.min.js"></script>
+</body>
+</html>

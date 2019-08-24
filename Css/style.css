@@ -1,0 +1,27 @@
+header{
+    color:#fff;
+    background-color: rgb(70, 66, 66)   
+}
+p{
+    color: white;
+}
+h2{
+    color: aqua;
+}
+body{
+    background-color: rgb(15, 46, 126);
+}
+label{
+    color: #fff;
+}
+a{
+	color: white;
+	
+}
+
+body{
+	a{
+		color: white;
+	}
+	
+}
